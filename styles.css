@@ -61,6 +61,10 @@ a:hover {
     color: #B7B78A;
 }
 
+a.active {
+    color: #B7B78A; /* or any other color you choose for the active link */
+}
+
 .main-content {
     flex-grow: 1;
     padding: 3rem;
