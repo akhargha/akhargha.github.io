@@ -84,3 +84,39 @@ footer {
     background-color: #658864;
     text-align: center;
 }
+
+@media (max-width: 768px) {
+    .wrapper {
+      flex-direction: column;
+    }
+  
+    header {
+      min-width: 100%;
+      padding: 1rem;
+    }
+  
+    header::after {
+      display: none;
+    }
+  
+    header nav {
+      align-items: center;
+    }
+  
+    .main-content {
+      padding: 1rem;
+      padding-top: 2rem;
+    }
+  
+    h1, h2, p {
+      font-size: 1rem;
+    }
+  
+    a {
+      padding: 0.2rem 0; /* reduced padding */
+    }
+  
+    footer {
+      position: relative; /* remove fixed to make it relative */
+    }
+  }
