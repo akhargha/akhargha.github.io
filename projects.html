@@ -6,68 +6,96 @@
     <title>Anupam— Projects</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="icon" type="image/png" sizes="32x32" href="./favicon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
 </head>
-<body>
-    <div class="wrapper">
-        <!-- Header with navigation links -->
-        <header>
-            <nav>
-                <a href="index.html" class="logo"><strong>Anupam <br> Khargharia</strong></a>
-                <a href="index.html">About</a>
-                <a href="projects.html" class="active">Projects</a>
-                <a href="resume.html">Resume</a>
-                <a href="contact.html">Contact</a>
-            </nav>
-        </header>
-        <div class="main-content">
-            <hr>
-            <!-- Projects Section -->
-            <section id="projects">
-                <h2>My Projects</h2>
-                <ol>
-                    <li><a href="https://github.com/akhargha/trincoll_scheduler"><u><strong>Course Scheduler and Sharing Tool:</strong></u></a></li>
-                    <i>HTML, CSS, Python (BeautifulSoup & pandas), SQL</i>
-                    <br>
-                    <br>
+    <!-- navbar with links -->
+    <nav class="navbar has-shadow is-fixed-top">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="index.html">
+                <span class="is-size-4 has-text-weight-bold">Anupam Khargharia</span>
+            </a>
+        </div>
+
+        <div class="navbar-menu" id="nav-links">
+            <div class="navbar-end">
+                <a class="navbar-item" href="index.html" class="active">About</a>
+                <a class="navbar-item" href="projects.html">Projects</a>
+                <a class="navbar-item" href="resume.html">Resume</a>
+                <a class="navbar-item" href="contact.html">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="site-content">
+        <!--Projects-->
+        <section class="section">
+            <div class="columns">
+                <h2 class="is-size-5 has-text-weight-bold">My Projects</h2>
+            </div>
+            <div class="column">
+            <br>
+                <p><a class="has-text-weight-bold is-underlined" href="https://github.com/akhargha/trincoll_scheduler">1. Course Scheduler and Sharing Tool:</a></p>
+                <h3 class="is-size-6 is-italic">HTML, CSS, Python (BeautifulSoup & pandas), SQL</h3>
+            <div>
+                <p>
                     This is my long-term personal project with which I aim to develop a useful product for college students while learning full 
                     stack development. This is a course scheduler and sharing tool to streamline the process of course scheduling and planning 
                     events/meetings with friends. This scheduler adds visualizations to a schedule and acts as a platform to share schedules
                     with friends so that they are aware of time constraints when making plans (and vice-versa!)
                     <br>
                     <br>
-                    <u>Current Progress:</u> 
+                </p>
+                <p><u>Current Progress:</u></p>
+                <ul>
+                    <li>1. Developed a web-scraper using BeautifulSoup and pandas to scrape course data from college's website.</li>
+                    <li>2. Designed a 5-entity relational database for the scheduler using SQL.</li>
+                </ul>
+                <br>
+                <p><u>Future Work:</u></p>
                     <ul>
-                        <li>Developed a web-scraper using BeautifulSoup and pandas to scrape course data from college's website.</li>
-                        <li>Designed a 5-entity relational database for the scheduler using SQL.</li>
+                        <li>1. Implement user authentication.</li>
+                        <li>2. Implement API endpoints for user registration, login, CRUD operations for courses, and friend functionalities.</li>
                     </ul>
-                    <u>Future Work:</u> 
-                    <ul>
-                        <li>Implement user authentication.</li>
-                        <li>Implement API endpoints for user registration, login, CRUD operations for courses, and friend functionalities.</li>
-                    </ul>
-                    <br>
-                    <br>
-                    <li><a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2149766&HistoricalAwards=false"><u><strong>Usable PKI Browser Extension:</strong></u></a></li>
-                    <i>HTML, CSS, JavaScript</i>
-                    <br>
-                    <br>
+            </div>
+
+            <br>
+            <br>
+                <p><a class="has-text-weight-bold is-underlined" href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2149766&HistoricalAwards=false">2. Usable PKI Browser Extension:</a></p>
+                <h3 class="is-size-6 is-italic">HTML, CSS, JavaScript</h3>
+            <div>
+                <p>
                     This is a browser extension I am developing as a part of my research project on Cybersecurity. The goal of the extension is 
                     to make the Public Key Infrastructure usable for everyone and to prevent phishing attacks. The extension uses browsing history
                     and web-certificates to detect phishing attacks. This project has taught me a lot about building large-scale applications while 
                     self-learning languages and frameworks.
                     <br>
                     <br>
-                    <u>Future Work:</u> 
+                </p>
+                <p><u>Current Progress:</u></p>
+                <ul>
+                    <li>1. Developed a web-scraper using BeautifulSoup and pandas to scrape course data from college's website.</li>
+                    <li>2. Designed a 5-entity relational database for the scheduler using SQL.</li>
+                </ul>
+                <br>
+                <p><u>Future Work:</u></p>
                     <ul>
-                        <li>Backend development- implement API endpoints to collect user data. Modify frontend to facilitate that.</li>
-                        <li>Improve the UI and UX of the extension.</li>
+                        <li>1. Backend development- implement API endpoints to collect user data. Modify frontend to facilitate that.</li>
+                        <li>2. Improve the UI and UX of the extension.</li>
                     </ul>
-                </ol>
-            </section>
-            <footer>
-                <p style="color: antiquewhite;">Email: akhargha@trincoll.edu &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Phone: (860)-999-7942</p>
-            </footer>
-        </div>
+            
+        </section>
+
+        <section class="section">
+            
+        </section>
     </div>
-</body>
+
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>
+                Personal Website of <strong>Anupam Khargharia.</strong> <br>
+                Email: akhargha@trincoll.edu | Personal Email: kharghariaanupam07@gmail.com | Phone: (860) 999-7942
+            </p>
+        </div>
+    </footer>
 </html>

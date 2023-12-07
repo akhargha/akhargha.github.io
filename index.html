@@ -1,50 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anupam Khargharia</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="icon" type="image/png" sizes="32x32" href="./favicon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
 </head>
-<body>
-    <div class="wrapper">
-        <!-- Header with navigation links -->
-        <header>
-            <nav>
-                <a href="index.html" class="logo"><strong>Anupam <br> Khargharia</strong></a>
-                <a href="index.html" class="active">About</a>
-                <a href="projects.html">Projects</a>
-                <a href="resume.html">Resume</a>
-                <a href="contact.html">Contact</a>
-            </nav>
-        </header>
-        <div class="main-content">
-            <hr>
-            <!-- About Section -->
-            <section id="about">
-                <h2>About Me</h2>
-                <p>I am currently a sophomore at <a href="https://www.trincoll.edu"><u>Trinity College</u></a> in Hartford, CT. 
-                    I am originally from Arunachal Pradesh, India. 
-                    I am working towards a Bachelor's Degree in Computer Science with a minor in Applied Math.
-                    I have been interested in Design and Math since middle school and took up coding in High School. 
-                    I am passionate about Music. I play the piano and the guitar, and produce music digitally. </p>
-                    <br>
-                <h3 style="color: #658864;"><i>What am I doing right now?</i></h3>
-                <p>
-                    Currently, I am working as a Research Assistant at Prof. Ewa Syta and Prof. Amir Herzberg's lab 
-                    at <a href="https://www.trincoll.edu"><u>Trinity College</u></a> & <a href="https://uconn.edu"><u>University of Connecticut</u></a> 
-                    on <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2149766&HistoricalAwards=false"><u>Applied Cryptographic Protocols for Provably Secure Foundations.</u></a>
-                    This semester, I am taking classes on Software Design, Intro to Computer Systems, Math Foundations of CS and Film Making. I also work as the IT Desk Student Consultant 
-                    and the Residential Advisor of Summit East at Trinity College. I am also in the process of designing a <a href="https://github.com/akhargha/trincoll_scheduler"><u>college course scheduler</u></a>- a long term personal project. My future 
-                    plans with this project include implementing user-authentication via Flask and crafting API endpoints.
-                </p>
-            </section>
 
-            <footer>
-                <p style="color: antiquewhite;">Email: akhargha@trincoll.edu &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Phone: (860)-999-7942</p>
-            </footer>
+<body>
+    <!-- navbar with links -->
+    <nav class="navbar has-shadow is-fixed-top">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="index.html">
+                <span class="is-size-4 has-text-weight-bold">Anupam Khargharia</span>
+            </a>
         </div>
+
+        <div class="navbar-menu" id="nav-links">
+            <div class="navbar-end">
+                <a class="navbar-item" href="index.html" class="active">About</a>
+                <a class="navbar-item" href="projects.html">Projects</a>
+                <a class="navbar-item" href="resume.html">Resume</a>
+                <a class="navbar-item" href="contact.html">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="site-content">
+        <!--About me-->
+        <section class="section">
+            <div class="columns">
+                <h2 class="is-size-5 has-text-weight-bold">About me</h2>
+            </div>
+            <div class="columns">
+                <div id="description-container">
+                    <p>I am currently a sophomore at <a href="https://www.trincoll.edu"><u>Trinity College</u></a> in
+                        Hartford, CT.
+                        I am originally from Arunachal Pradesh, India.
+                        I am working towards a Bachelor's Degree in Computer Science with a minor in Applied Math.
+                        I have been interested in Design and Math since middle school and took up coding in High School.
+                        I am passionate about Music. I play the piano and the guitar, and produce music digitally. </p>
+                    <br>
+                    <h3 class="is-italic is-underlined has-text-weight-bold">What am I doing right now?</h3>
+                    <p>
+                        Currently, I am working as a Research Assistant at Prof. Ewa Syta and Prof. Amir Herzberg's lab
+                        at <a href="https://www.trincoll.edu"><u>Trinity College</u></a> & <a
+                            href="https://uconn.edu"><u>University of Connecticut</u></a>
+                        on <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2149766&HistoricalAwards=false"><u>Applied
+                                Cryptographic Protocols for Provably Secure Foundations.</u></a>
+                        This semester, I am taking classes on Software Design, Intro to Computer Systems, Math
+                        Foundations of CS and Film Making. I also work as the IT Desk Student Consultant
+                        and the Residential Advisor of Summit East at Trinity College. I am also in the process of
+                        designing a <a href="https://github.com/akhargha/trincoll_scheduler"><u>college course
+                                scheduler</u></a>- a long term personal project. My future
+                        plans with this project include implementing user-authentication via Flask and crafting API
+                        endpoints.
+                    </p>
+                </div>
+            </div>
+        </section>
     </div>
+
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>
+                Personal Website of <strong>Anupam Khargharia.</strong> <br>
+                Email: akhargha@trincoll.edu | Personal Email: kharghariaanupam07@gmail.com | Phone: (860) 999-7942
+            </p>
+        </div>
+    </footer>
 </body>
+
 </html>

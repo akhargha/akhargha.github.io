@@ -6,30 +6,45 @@
     <title>Anupam- Resume</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="icon" type="image/png" sizes="32x32" href="./favicon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
 </head>
 <body>
     <div class="wrapper">
-        <!-- Header with navigation links -->
-        <header>
-            <nav>
-                <a href="index.html" class="logo"><strong>Anupam <br> Khargharia</strong></a>
-                <a href="index.html">About</a>
-                <a href="projects.html">Projects</a>
-                <a href="resume.html" class="active">Resume</a>
-                <a href="contact.html">Contact</a>
-            </nav>
-        </header>
+        <!-- navbar with links -->
+        <nav class="navbar has-shadow is-fixed-top">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="index.html">
+                    <span class="is-size-4 has-text-weight-bold">Anupam Khargharia</span>
+                </a>
+            </div>
+
+            <div class="navbar-menu" id="nav-links">
+                <div class="navbar-end">
+                    <a class="navbar-item" href="index.html" class="active">About</a>
+                    <a class="navbar-item" href="projects.html">Projects</a>
+                    <a class="navbar-item" href="resume.html">Resume</a>
+                    <a class="navbar-item" href="contact.html">Contact</a>
+                </div>
+            </div>
+        </nav>
+
         <div class="main-content">
-            <hr>
             <!-- Resume Section -->
             <section id="resume">
-                <h2>My Resume</h2>
+                <h2 class="is-size-4 has-text-weight-bold">My Resume</h2>
                 <object data="./resume.pdf" type="application/pdf" width="800" height="600"></object>
             </section>
-            <footer>
-                <p style="color: antiquewhite;">Email: akhargha@trincoll.edu &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Phone: (860)-999-7942</p>
-            </footer>
+
         </div>
+
+        <footer class="footer">
+            <div class="content has-text-centered">
+                <p>
+                    Personal Website of <strong>Anupam Khargharia.</strong> <br>
+                    Email: akhargha@trincoll.edu | Personal Email: kharghariaanupam07@gmail.com | Phone: (860) 999-7942
+                </p>
+            </div>
+        </footer>
     </div>
 </body>
 </html>

@@ -6,41 +6,54 @@
     <title>Anupam- Contact</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="icon" type="image/png" sizes="32x32" href="./favicon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
 </head>
 <body>
     <div class="wrapper">
-        <!-- Header with navigation links -->
-        <header>
-            <nav>
-                <a href="index.html" class="logo"><strong>Anupam <br> Khargharia</strong></a>
-                <a href="index.html">About</a>
-                <a href="projects.html">Projects</a>
-                <a href="resume.html">Resume</a>
-                <a href="contact.html" class="active">Contact</a>
-            </nav>
-        </header>
-        <div class="main-content">
-            <hr>        
+        <nav class="navbar has-shadow is-fixed-top">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="index.html">
+                    <span class="is-size-4 has-text-weight-bold">Anupam Khargharia</span>
+                </a>
+            </div>
+
+            <div class="navbar-menu" id="nav-links">
+                <div class="navbar-end">
+                    <a class="navbar-item" href="index.html" class="active">About</a>
+                    <a class="navbar-item" href="projects.html">Projects</a>
+                    <a class="navbar-item" href="resume.html">Resume</a>
+                    <a class="navbar-item" href="contact.html">Contact</a>
+                </div>
+            </div>
+        </nav>
+
+        <div class="main-content">      
             <!-- Contact Section -->
             <section id="contact">
-                <h2>Contact Me</h2>
+                <h2 class="is-size-4 has-text-weight-bold">Contact Me</h2>
                 <img src="headshot.jpg" alt="Photo of Anupam Khargharia" width="150px">
                 <br>
-                Email: akhargha@trincoll.edu
+                <strong>Email:</strong> akhargha@trincoll.edu
                 <br>
-                Phone: +1- (860)-999-7942
+                <strong>Personal Email:</strong> kharghariaanupam07@gmail.com
                 <br>
-                <a href="https://www.linkedin.com/in/anupam-khargharia/" style="color: #B7B78A;">LinkedIn</a>
+                <strong>Phone:</strong> +1- (860)-999-7942
                 <br>
-                <a href="https://github.com/akhargha" style="color: #B7B78A;">GitHub</a> 
+                <a href="https://www.linkedin.com/in/anupam-khargharia/">LinkedIn</a>
                 <br>
+                <a href="https://github.com/akhargha">GitHub</a> 
                 <br>
                 Box 702255, Trinity College
                 <br>
                 300 Summit St, Hartford, CT, 06106
             </section>
-            <footer>
-                <p style="color: antiquewhite;">Email: akhargha@trincoll.edu &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Phone: (860)-999-7942</p>
+            <footer class="footer">
+                <div class="content has-text-centered">
+                    <p>
+                        Personal Website of <strong>Anupam Khargharia.</strong> <br>
+                        Email: akhargha@trincoll.edu | Personal Email: kharghariaanupam07@gmail.com | Phone: (860) 999-7942
+                    </p>
+                </div>
             </footer>
         </div>
     </div>
